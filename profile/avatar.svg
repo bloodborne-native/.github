@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+  <radialGradient id="sky" cx="0.5" cy="0.42" r="0.75">
+    <stop offset="0" stop-color="#4a161b"/><stop offset="0.55" stop-color="#1c0b0f"/><stop offset="1" stop-color="#09070a"/>
+  </radialGradient>
+  <radialGradient id="moon" cx="0.44" cy="0.4" r="0.62">
+    <stop offset="0" stop-color="#f6efdf"/><stop offset="0.7" stop-color="#e4d8c0"/><stop offset="1" stop-color="#cbbb9c"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#f2e7d1" stop-opacity="0.35"/><stop offset="0.55" stop-color="#b8443f" stop-opacity="0.14"/><stop offset="1" stop-color="#b8443f" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="0.5"/></filter>
+  <filter id="crater"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="127.1" cy="129.7" r="1.17" fill="#efe4cf" opacity="0.46"/><circle cx="317.9" cy="24.4" r="0.81" fill="#efe4cf" opacity="0.54"/><circle cx="137.6" cy="61.6" r="1.80" fill="#efe4cf" opacity="0.41"/><circle cx="421.5" cy="114.8" r="1.44" fill="#efe4cf" opacity="0.30"/><circle cx="322.4" cy="201.0" r="1.32" fill="#efe4cf" opacity="0.51"/><circle cx="340.3" cy="24.1" r="1.56" fill="#efe4cf" opacity="0.46"/><circle cx="158.2" cy="16.8" r="1.67" fill="#efe4cf" opacity="0.42"/><circle cx="363.7" cy="203.3" r="1.51" fill="#efe4cf" opacity="0.57"/><circle cx="204.3" cy="186.2" r="1.24" fill="#efe4cf" opacity="0.58"/><circle cx="442.4" cy="31.4" r="0.94" fill="#efe4cf" opacity="0.33"/><circle cx="485.0" cy="106.0" r="1.43" fill="#efe4cf" opacity="0.36"/><circle cx="259.6" cy="94.9" r="1.15" fill="#efe4cf" opacity="0.45"/><circle cx="297.5" cy="208.9" r="1.48" fill="#efe4cf" opacity="0.58"/><circle cx="431.3" cy="228.0" r="1.47" fill="#efe4cf" opacity="0.31"/><circle cx="433.4" cy="222.2" r="1.70" fill="#efe4cf" opacity="0.45"/><circle cx="361.2" cy="56.4" r="1.63" fill="#efe4cf" opacity="0.45"/><circle cx="150.2" cy="24.0" r="1.65" fill="#efe4cf" opacity="0.60"/><circle cx="53.6" cy="186.1" r="1.21" fill="#efe4cf" opacity="0.30"/><circle cx="154.6" cy="179.1" r="1.67" fill="#efe4cf" opacity="0.27"/><circle cx="312.4" cy="19.9" r="1.52" fill="#efe4cf" opacity="0.37"/><circle cx="443.4" cy="225.7" r="1.31" fill="#efe4cf" opacity="0.60"/><circle cx="162.4" cy="26.9" r="1.40" fill="#efe4cf" opacity="0.26"/><circle cx="107.1" cy="99.7" r="1.41" fill="#efe4cf" opacity="0.30"/><circle cx="30.9" cy="200.9" r="1.11" fill="#efe4cf" opacity="0.59"/><circle cx="451.2" cy="93.1" r="1.26" fill="#efe4cf" opacity="0.43"/><circle cx="326.8" cy="141.0" r="1.36" fill="#efe4cf" opacity="0.47"/>
+<circle cx="256" cy="220" r="230" fill="url(#halo)"/>
+<circle cx="256" cy="220" r="132" fill="url(#moon)" filter="url(#soft)"/>
+<g filter="url(#crater)" opacity="0.2" fill="#a8977a"><circle cx="220" cy="190" r="26"/><circle cx="296" cy="252" r="18"/><circle cx="280" cy="168" r="11"/><circle cx="236" cy="268" r="9"/></g>
+<path d="M 0 512 L 0 455 L 40 455 L 70 425 L 100 455 L 130 455 L 130 380 L 146 380 L 158 300 L 170 380 L 186 380 L 186 455 L 236 455 L 266 430 L 296 455 L 326 455 L 326 360 L 342 360 L 356 250 L 370 360 L 386 360 L 386 455 L 420 455 L 450 420 L 480 455 L 512 455 L 512 512 Z" fill="#07050a"/>
+</svg>

@@ -11,6 +11,8 @@ by deadinside28 and on [shadPS4](https://github.com/shadps4-emu/shadPS4).
 | **[bloodborne-runtime](https://github.com/bloodborne-native/bloodborne-runtime)** | Runs the game: the PS4 system libraries and a Vulkan renderer |
 | **[bloodborne-recomp](https://github.com/bloodborne-native/bloodborne-recomp)** | An x86-64 → arm64 translator and a static recompiler that turns the game's code into native code ([status](https://github.com/bloodborne-native/bloodborne-recomp/wiki/Recompilation-status)) |
 
+**Community:** join the [bloodborne-native Discord](https://discord.gg/EyyQ23sTBg) for help, news and development.
+
 No game files or game code are included anywhere: you need your own dump of Bloodborne with the
 1.09 update.
 

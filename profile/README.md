@@ -1,6 +1,6 @@
 <p align="center"><img src="cover.png" alt="bloodborne-native: a pale moon over a gothic skyline" width="100%"></p>
 
-<p align="center"><a href="https://discord.gg/EyyQ23sTBg"><img src="https://img.shields.io/badge/Discord-join%20the%20server-5865F2?logo=discord&logoColor=white" alt="Discord"></a></p>
+<p align="center"><a href="https://discord.gg/QS6vHz45xA"><img src="https://img.shields.io/badge/Discord-join%20the%20server-5865F2?logo=discord&logoColor=white" alt="Discord"></a></p>
 
 Bloodborne (PS4) running natively, starting with Apple Silicon Macs, from the player's own copy
 of the game. Open source (GPL), built on [bbport](https://github.com/deadinside28/bloodborne_pc)
